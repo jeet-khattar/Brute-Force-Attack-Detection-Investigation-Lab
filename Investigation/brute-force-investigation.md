@@ -1,1 +1,15 @@
 
+1. Alert received
+2. Identify Event ID
+3. Identify affected host
+4. Identify username
+5. Identify source IP
+6. Check number of failed attempts
+7. Check timestamps
+8. Determine whether activity resembles brute force
+9. Check for successful login after failures
+10. Document conclusion
+
+11. I investigated repeated Windows failed-logon events, examined authentication timestamps,
+12. source information and affected accounts, and used the event pattern to determine whether the
+13.  activity was consistent with brute-force behavior
