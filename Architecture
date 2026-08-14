@@ -1,0 +1,26 @@
+
+                ATTACK SIMULATION
+                 Kali Linux
+                     │
+                     │ Failed Login Attempts
+                     ▼
+              ┌───────────────┐
+              │   Windows 10  │
+              │ Target / VM   │
+              └───────┬───────┘
+                      │
+                      │ Security Logs
+                      │ Event ID 4625
+                      ▼
+              ┌───────────────┐
+              │     Splunk    │
+              │     SIEM      │
+              └───────┬───────┘
+                      │
+             Detection / Correlation
+                      │
+                      ▼
+              🚨 Alert Trigger
+                      │
+                      ▼
+              Investigation Dashboard
